@@ -1,0 +1,1 @@
+/Users/anna.kadatskaya/development/classic_counter/build/app/intermediates/cxx/Debug/2x4j6d71/obj/arm64-v8a

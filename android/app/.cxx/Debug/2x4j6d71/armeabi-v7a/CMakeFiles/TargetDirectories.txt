@@ -1,0 +1,2 @@
+/Users/anna.kadatskaya/development/classic_counter/android/app/.cxx/Debug/2x4j6d71/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/anna.kadatskaya/development/classic_counter/android/app/.cxx/Debug/2x4j6d71/armeabi-v7a/CMakeFiles/rebuild_cache.dir
