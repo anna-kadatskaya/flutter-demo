@@ -15,4 +15,8 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+Feature_1.
+Feature_2.
+Feature_2.1
+Feature 2.2
 feature_3
