@@ -6,9 +6,6 @@ workflows:
       environment:
         groups:
           - code-signing
-        ios_signing:
-          distribution_type: development
-          bundle_identifier: io.codemagic.annaFlutterDemo
         vars:
           XCODE_WORKSPACE: "Runner.xcworkspace" # <-- Put the name of your workspace here.
           XCODE_SCHEME: "Runner" # <-- Put the name of your scheme here.
