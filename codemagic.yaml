@@ -7,7 +7,7 @@ workflows:
         groups:
           - code-signing
         ios_signing:
-          distribution_type: app_store
+          distribution_type: ad_hoc
           bundle_identifier: io.codemagic.annaFlutterDemo
         vars:
           XCODE_WORKSPACE: "Runner.xcworkspace" # <-- Put the name of your workspace here.
