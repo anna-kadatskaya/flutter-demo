@@ -23,8 +23,9 @@ workflows:
         - name: Set up signing certificate
           script: keychain add-certificates
         - name: Set up code signing settings on Xcode project
-          script: xcode-project use-profiles \
-                    --custom-export-options='{"testFlightInternalTestingOnly":true}'
+          script: |
+              xcode-project use-profiles \
+              --custom-export-options='{"testFlightInternalTestingOnly":true}'
         - name: Increment build number
           script: |
             agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID") + 1))
