@@ -1,6 +1,7 @@
 workflows:
     deploy-to-appstore: 
       name: Deploy to App Store Connect
+      instance_type: mac_studio_m4_max
       integrations: 
         app_store_connect: Codemagic API Key
       environment:
